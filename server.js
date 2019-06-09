@@ -2,7 +2,7 @@ const express = require('express')
 const config = require('./config.js')
 const web = require('./src/frontend/routes/web')
 const app = express()
-const port = process.env.PORT || config.DEFAULT_PORT
+const port = process.env.port || config.DEFAULT_PORT
 const hostname = config.DEFAULT_HOST
 
 app.set('views', './src/frontend/views')
