@@ -1,4 +1,113 @@
 /* this contains the styles for dex website */
-h2{
-    color: blue;
+
+/*HOME STYLING*/
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    background-color: #ED1651;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    word-spacing: 8px;
+    letter-spacing: 0.08em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo a img{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.searchButton{
+    margin-top: -80px;
+}
+
+.searchButton ul li{
+    margin-left: 93%;
+    list-style: none;
+    display: inline;
+    color: white; 
+}
+
+.firstContent{
+    color: white;
+
+}
+
+.firstContent h2{
+    margin-top: 80px;
+    padding-top: 50px;
+    color: white;
+    margin-left: 120px;
+    font-size: 2.0em;
+    letter-spacing: 0.19em;
+}
+
+.firstContent h2 u{
+    text-decoration: underline dodgerblue;
+}
+
+.firstContent p{
+    margin-top: 10px;
+    margin-left: 8em;
+}
+
+.secondContent a p{
+    text-decoration: none;
+    list-style: none;
+}
+
+.secondContent p{
+    color: white;
+    margin-top: 10px;
+    margin-left: -199px;
+    margin-bottom: 5px;
+}
+.secondContent hr{
+    margin-left: -199px;
+    margin-top: 5px;
+}
+
+.thirdContent{
+    margin-top: 230px;    
+}
+
+.thirdContent ul li i{
+    margin-left: 70px;
+    color: white;
+}
+
+.fourthContent{
+    display: inline;
+    text-decoration: none;
+}
+
+.fourthContent a p{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.1em;
+    line-break: normal;
+}
+
+.fourthContent a ul li{
+    list-style: none;
+    border: gray;
+} 
+    
+.container .fourthContent{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 30%;
+    padding: 20px;
+    height: 43px;
+    margin-left: 130px;
+}
+/* END OF HOME STYLING */
